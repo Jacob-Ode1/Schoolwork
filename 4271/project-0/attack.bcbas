@@ -1,0 +1,5 @@
+x = 1
+4207905 if x > 1 then goto 12345678
+x = 3
+goto 4207905
+12345678 println x

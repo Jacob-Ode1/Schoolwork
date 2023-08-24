@@ -1,0 +1,9 @@
+i[0-9A-D][a-z] # add one letter
+i[0-9A-D][a-z] i[0-9A-D][a-z] # add two letters
+i[0-9A-D][a-z] i[0-9A-D][a-z] i[0-9A-D][a-z] # add three letters
+i[0-9A-D][a-z] o[0-9A-D][0-9] # add one letter and replace one character with a digit
+i[0-9A-D][a-z] i[0-9A-D][a-z] o[0-9A-D][0-9] # add two letters and replace one character with a digit
+i[0-9A-D][a-z] i[0-9A-D][a-z] i[0-9A-D][a-z] o[0-9A-D][0-9] # add three letters and replacing one character with a digit
+i[0-9A-D][a-z] o[0-9A-D][0-9] o[0-9A-D][0-9] # add one letter and replace two characters with numbers
+i[0-9A-D][a-z] i[0-9A-D][a-z] o[0-9A-D][0-9] o[0-9A-D][0-9] # add two letters and replacing two characters with numbers
+i[0-9A-D][a-z] i[0-9A-D][a-z] i[0-9A-D][a-z] o[0-9A-D][0-9] o[0-9A-D][0-9] # add three letters and replace two characters with numbers
